@@ -55,16 +55,23 @@ main p{
     margin: 15px 0px 15px 0px; 
     text-align: justify;
     text-indent: 20px;
+    text-shadow: 1px 1px 1px black;
     line-height: 1.5em;
     font-size: 1em;
     max-width: 1000px;
+    min-width: 300px;
+
 }
 h1{
     color: #9dd8ee;
 }
+h1, h2, h3{
+    text-shadow: 1px 1px 1px black;
+}
 footer{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 footer a{
     padding: 20px;
